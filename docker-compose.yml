@@ -1,0 +1,5 @@
+services:
+  express-app:
+    build: .
+    ports:
+      - 8122:8080
